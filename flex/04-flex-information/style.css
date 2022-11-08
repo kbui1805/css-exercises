@@ -12,6 +12,33 @@ img {
   font-weight: 900;
 }
 
+.container,
+.top,
+.bottom,
+.plant-item {
+  display: flex;
+}
+
+.container,
+.plant-item {
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.container {
+  padding: 0 40px;
+}
+
+.plant-item {
+  flex: 1;
+  margin: 40px;
+  /* gap: 40px; */
+}
+
+.plant-item .text {
+  text-align: center;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
